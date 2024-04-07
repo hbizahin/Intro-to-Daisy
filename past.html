@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DaisyUI</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.10.1/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1>I explored Tailwind</h1>
+    <h3>Now I want to see DaisyUI</h3>
+    <button>Click me</button>
+    <button class="btn">Click me</button>
+    <button class="btn btn-primary">Click me</button>
+<!-- accordian -->
+ <section>
+    <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" checked="checked" /> 
+        <div class="collapse-title text-xl font-medium">
+          What type of smart phones are not smart
+        </div>
+        <div class="collapse-content"> 
+          <p>Nakia XD</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          Who is your best-friend?
+        </div>
+        <div class="collapse-content"> 
+          <p>Yourself</p>
+        </div>
+      </div>
+      <div class="collapse collapse-plus bg-base-200">
+        <input type="radio" name="my-accordion-3" /> 
+        <div class="collapse-title text-xl font-medium">
+          Which country I belong
+        </div>
+        <div class="collapse-content"> 
+          <p>Bangladesh!</p>
+        </div>
+      </div>
+ </section>
+ <!-- My shoes -->
+ <section>
+    <div>
+        <!-- first shoe -->
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure><img src="images/jacket-1.png" alt="" /></figure>
+            <div class="card-body">
+              <h2 class="card-title">
+                Shoes!
+                <div class="badge badge-secondary">NEW</div>
+              </h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions justify-end">
+                <div class="badge badge-outline">Fashion</div> 
+                <div class="badge badge-outline">Products</div>
+              </div>
+            </div>
+          </div>
+    </div>
+ </section>
+ <!-- Loading -->
+ <section class="text-center mt-10 mb-10">
+    <span class="loading loading-bars loading-xs"></span>
+    <span class="loading loading-bars loading-sm"></span>
+    <span class="loading loading-bars loading-md"></span>
+    <span class="loading loading-bars loading-lg"></span>
+ </section>
+ <!-- slider -->
+ <div class="carousel w-full">
+    <div id="item1" class="carousel-item w-full">
+      <img src="https://daisyui.com/images/stock/photo-1625726411847-8cbb60cc71e6.jpg" class="w-full" />
+    </div> 
+    <div id="item2" class="carousel-item w-full">
+      <img src="https://daisyui.com/images/stock/photo-1609621838510-5ad474b7d25d.jpg" class="w-full" />
+    </div> 
+    <div id="item3" class="carousel-item w-full">
+      <img src="https://daisyui.com/images/stock/photo-1414694762283-acccc27bca85.jpg" class="w-full" />
+    </div> 
+    <div id="item4" class="carousel-item w-full">
+      <img src="https://daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.jpg" class="w-full" />
+    </div>
+  </div> 
+  <div class="flex justify-center w-full py-2 gap-2">
+    <a href="#item1" class="btn btn-xs">1</a> 
+    <a href="#item2" class="btn btn-xs">2</a> 
+    <a href="#item3" class="btn btn-xs">3</a> 
+    <a href="#item4" class="btn btn-xs">4</a>
+  </div>
+</body>
+</html>
